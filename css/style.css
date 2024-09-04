@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+section{
+   position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-size: cover;
+    background-color: whitesmoke;
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 80%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header  .navigation a{
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 800;
+    letter-spacing: 1px;
+    border: none;
+    margin-right: 100px;
+}
+
+header  .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+header  .navigation a:hover{
+    transform: scale(1.5);
+  }
+.content{
+   
+    margin: 30px 100px;
+    display: flex;
+
+}
+.content .info h2{
+    color: black;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+
+}
+
+p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.content .info-btn{
+    color: white;
+    background: rgb(3, 3, 71);
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 25px 25px;
+    border-radius: 5px;
+}
+.content .info-btn:hover{
+    background: #0c4f60;
+}
+ .content .images{
+  margin-left: 100px;
+   
+} 
+
+h1{
+    
+    font-size: xx-large;
+}
+
+  .media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 45px;
+  }
+  .media-icons a:not(:last-child){
+    margin-right: 60px;
+  }
+  .media-icons a:hover{
+    transform: scale(1.5);
+  }
